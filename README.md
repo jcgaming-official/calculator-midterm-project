@@ -2,6 +2,10 @@
 A basic calculator made from html, css and javascript!<br>
 It uses external CSS and Javascript
 
+# Live Preview:
+https://jc-calculator.vercel.app/
+![image fails to load](assets/Screenshot "Screenshot")
+
 ## Features:
 - Multiplication
 + Substraction
@@ -19,4 +23,4 @@ List of bugs that have been fixed
 [Github Buttons](https://ghbtns.com/)<br>
 
 ## Star and Fork this repo:
-You can thanks me by star and forking this repo :smile
+You can thanks me by star and forking this repo 😸
