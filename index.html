@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="icon" href="./assets/calb.png">
+    <iframe src="https://ghbtns.com/github-btn.html?user=jcgaming-official&repo=calculator-midterm-project&type=star&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+    <iframe src="https://ghbtns.com/github-btn.html?user=jcgaming-official&repo=calculator-midterm-project&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="170" height="30" title="GitHub"></iframe>
+    <link rel="stylesheet" type="text/css" href="./assets/styles.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+</head>
+<body background=
+"./assets/calb.png"
+      style="background-repeat: no-repeat; 
+             background-size: cover;
+             background-attachment: fixed;"> <!-- background image -->
+    <h1>Calculator</h1>
+    <div id="main">
+        <form name="func">
+            <input type="text" name="textBox" placeholder="0" id="box"> <br>
+            <input type="button" value="1" onclick="func.textBox.value+=1">
+            <input type="button" value="2" onclick="func.textBox.value+=2">
+            <input type="button" value="3" onclick="func.textBox.value+=3">
+            <input type="button" value="+" onclick="add()">
+            <br>
+            <input type="button" value="4" onclick="func.textBox.value+=4">
+            <input type="button" value="5" onclick="func.textBox.value+=5">
+            <input type="button" value="6" onclick="func.textBox.value+=6">
+            <input type="button" value="-" onclick="sub()">
+            <br>
+            <input type="button" value="7" onclick="func.textBox.value+=7">
+            <input type="button" value="8" onclick="func.textBox.value+=8">
+            <input type="button" value="9" onclick="func.textBox.value+=9">
+            <input type="button" value="÷" onclick="div()">
+            <br>
+            <input type="button" value="C" onclick="func.textBox.value=''">
+            <input type="button" value="0" onclick="func.textBox.value+=0">
+            <input type="button" value="=" onclick="func.textBox.value=eval(func.textBox.value)">
+            <input type="button" value="x" onclick="mul()">
+            <br>
+            <p class="clrs">
+                Created by: Quieta, John Carl
+            </p>
+        </form>
+    </div>
+    <div class="social-icons">
+        <a href="https://www.facebook.com/jcquieta.158"><img src="./assets/fb.png" alt="Facebook"></a>
+        <a href="https://www.github.com/jcgaming-official"><img src="./assets/gb.png" alt="GitHub"></a>
+        <a href="https://www.linkedin.com/in/john-carl-quieta"><img src="./assets/ln.png" alt="LinkedIn"></a>
+    </div>
+    <script src="./assets/main.js"></script>
+
+</body>
+</html>
